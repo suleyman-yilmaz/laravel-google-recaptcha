@@ -20,6 +20,7 @@ cd laravel-google-recaptcha
 - composer install
 - copy and duplicate .env.exapmle and rename it to .env
 - php artisan key:generate
+- php artisan migrate
 ---
 ### Step 3: Create reCaptcha key
 - go to https://www.google.com/recaptcha/admin/create
