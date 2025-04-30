@@ -34,6 +34,9 @@
                     required />
             </div>
 
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY_V2') }}"></div>
+
             <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">Kayıt
                 Ol</button>
         </form>
